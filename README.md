@@ -1,2 +1,14 @@
 # ExelToJson
-Exel to Json, converting excel to list
+Exel to Json, converting excel to list and in the end to Json 
+1. exeltojson.py - для преобразования эксель в JSON .
+
+or
+
+xlsx_to_list_and_work.py -  или изначально Эксель преобразуем в список(type list)
+и сразу же с ним работаем. Так даже быстрее будет,но это не точно.
+
+2. read.py - полученный JSON файл преобразуем в обычный пронумерованный словарь
+3. work_with_dict.py Работаем со словарем (фильтруем символы, делаем подсчет и режем).
+4. 150_words_to_JSON.py - преобразуем лист с кортежами(где 150 популярных
+слов в словарь для последущего преобразования в JSON.
+5. 150_words_to_JSON.py - преобразовываем словарь 150 популярных товаров в json
